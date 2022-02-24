@@ -1,0 +1,276 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1466; Version 2009; 64bit' Language: 'pl' Physical Memory: 16326 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\UNITY\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UNITY/Chaos
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64601
+Successfully changed project path to: D:/UNITY/Chaos
+D:/UNITY/Chaos
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 73.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path D:/UNITY/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNITY/Chaos/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'D:/UNITY/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNITY/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UNITY/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UNITY/2020.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UNITY/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003640 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 54.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2532ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (837ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (317ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006691 seconds.
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on MainMenu
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+OnLevelWasLoaded was found on LevelLoader
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1907ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1505ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (640ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (458ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1561 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2010.
+Total: 5.018900 ms (FindLiveObjects: 0.166900 ms CreateObjectMapping: 0.055300 ms MarkObjects: 4.683800 ms  DeleteObjects: 0.111500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Trash
+  artifactKey: Guid(6458514cecd9c1c46b2bf36c6188336d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash using Guid(6458514cecd9c1c46b2bf36c6188336d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1590dfa3f43a8bc65c07f0aa76908551') in 0.023798 seconds 
+  Import took 0.036966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Trash/FBX/humanbase.fbx
+  artifactKey: Guid(9dbe052870d12cb4293fc24368905cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/FBX/humanbase.fbx using Guid(9dbe052870d12cb4293fc24368905cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fde141566e160134f11e75a9b38996') in 0.492729 seconds 
+  Import took 0.513644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Trash/22 1.terrainlayer
+  artifactKey: Guid(e43ab5cd7c502c6499470882df0fbf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/22 1.terrainlayer using Guid(e43ab5cd7c502c6499470882df0fbf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b274a7b70d5d9bad561d2a43d3496f') in 0.062192 seconds 
+  Import took 0.067250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Trash/FBX/towerhigh4.fbx
+  artifactKey: Guid(11dc0b63bb39b5b4bb34f05ec1e20226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/FBX/towerhigh4.fbx using Guid(11dc0b63bb39b5b4bb34f05ec1e20226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18cd917acb51a92577ff84ff9fcb31de') in 0.040347 seconds 
+  Import took 0.064923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Trash/22.terrainlayer
+  artifactKey: Guid(c6eb7a84a4e386645ba3d320b5044b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/22.terrainlayer using Guid(c6eb7a84a4e386645ba3d320b5044b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acbaaacdd23c5cea8e4cdd67645d1f5') in 0.033924 seconds 
+  Import took 0.041034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Trash/22 2.terrainlayer
+  artifactKey: Guid(e91e7c54f6b588f40b2ee54929458cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/22 2.terrainlayer using Guid(e91e7c54f6b588f40b2ee54929458cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f40a1b98491868fef6dacbc10fbf33a') in 0.046895 seconds 
+  Import took 0.052982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Trash/FBX/orcbase.fbx
+  artifactKey: Guid(2553e8fc72766344ba1ebf83ae388d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/FBX/orcbase.fbx using Guid(2553e8fc72766344ba1ebf83ae388d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620121c8df0267f06b8917cf0b950083') in 0.061536 seconds 
+  Import took 0.071011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Terrain
+  artifactKey: Guid(dcff1c30b3a62c945810dc5d1d61816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain using Guid(dcff1c30b3a62c945810dc5d1d61816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaa75cb4e78fe6cb988645fa0db52d0') in 0.013412 seconds 
+  Import took 0.017319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Trash/FBX/humanbarracks.fbx
+  artifactKey: Guid(26009bc39d3ce734e8e94411fb2482f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/FBX/humanbarracks.fbx using Guid(26009bc39d3ce734e8e94411fb2482f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4623c4818fce7a6ab29f7724d9b8056f') in 0.093939 seconds 
+  Import took 0.098742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Trash/FBX/palisade.fbx
+  artifactKey: Guid(6eaceaa2ce3059247bc2022cde92936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/FBX/palisade.fbx using Guid(6eaceaa2ce3059247bc2022cde92936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf165df8fc5411769590fd21795b52d7') in 0.065032 seconds 
+  Import took 0.069225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Trash/FBX
+  artifactKey: Guid(f89cd4d1a7409a54c942bec6655f275a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/FBX using Guid(f89cd4d1a7409a54c942bec6655f275a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af6eb4eafcddf064229a842a19ef27c') in 0.010967 seconds 
+  Import took 0.015248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Trash/FBX/barrack.fbx
+  artifactKey: Guid(65b0586e334edce4fa6ed15e3a4cf455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/FBX/barrack.fbx using Guid(65b0586e334edce4fa6ed15e3a4cf455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95985232cbf13f6554b9183ba879dc38') in 0.071324 seconds 
+  Import took 0.078770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Trash/FBX/humantower.fbx
+  artifactKey: Guid(5e9c165728917614ca4af284f900b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trash/FBX/humantower.fbx using Guid(5e9c165728917614ca4af284f900b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7babe343acbd3015dfd7dc8531e0e977') in 0.071122 seconds 
+  Import took 0.075143 seconds .
+
+========================================================================
+Received Prepare
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 7.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.3 MB.
+System memory in use after: 57.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2056.
+Total: 10.591300 ms (FindLiveObjects: 0.325700 ms CreateObjectMapping: 0.172300 ms MarkObjects: 9.423500 ms  DeleteObjects: 0.668300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

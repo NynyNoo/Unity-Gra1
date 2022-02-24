@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1850143674564214546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1850143674564214545}
+  - component: {fileID: 1850143674564214544}
+  - component: {fileID: 5312871813654939423}
+  m_Layer: 0
+  m_Name: HUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1850143674564214545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850143674564214546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1850143674564214544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850143674564214546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4a90fa8f3e0f04c8765e0a40000a4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceSkin: {fileID: 11400000, guid: 3c123f32a546599449980df8d16c56b8, type: 2}
+  ordersSkin: {fileID: 11400000, guid: ba19515743a1f234c8775936a21252ca, type: 2}
+  selectBoxSkin: {fileID: 0}
+  activeCursor: {fileID: 2800000, guid: b247c937097035e4eb5ed4127434da6c, type: 3}
+  selectCursor: {fileID: 2800000, guid: b247c937097035e4eb5ed4127434da6c, type: 3}
+  leftCursor: {fileID: 2800000, guid: e24f997b681c971449dbd33f46bfc2e5, type: 3}
+  rightCursor: {fileID: 2800000, guid: 6c9995fb25e47b844b29dc769f31b5a3, type: 3}
+  upCursor: {fileID: 2800000, guid: fb1ab8c521181d04da823a9c1e129452, type: 3}
+  downCursor: {fileID: 2800000, guid: d9e34ec44afc0c94887ae01b74673df6, type: 3}
+  moveCursors:
+  - {fileID: 2800000, guid: 8b252f099e1e8f442b7217cad5bfd77f, type: 3}
+  - {fileID: 2800000, guid: 6c5c42fd99ea84c40acd0b23d0aeb575, type: 3}
+  attackCursors:
+  - {fileID: 2800000, guid: b4a309402d1aaa645805ab4f329ce1fe, type: 3}
+  - {fileID: 2800000, guid: deb0d838630898c4f9a79a837737aa96, type: 3}
+  harvestCursors:
+  - {fileID: 2800000, guid: 04ac11138b374994e83dfe3e7bba7f9c, type: 3}
+  - {fileID: 2800000, guid: a70b61b630ef0494794c17ce9cff0b6e, type: 3}
+  mouseCursorSkin: {fileID: 11400000, guid: dd99f1333dab8d24ab04f6c71f2293a7, type: 2}
+  resources:
+  - {fileID: 2800000, guid: 6cca27ec09a527b42accaa77885af7b8, type: 3}
+  - {fileID: 2800000, guid: 8ff5ad416871fdc4f984def6bdba9506, type: 3}
+  buttonHover: {fileID: 2800000, guid: 5a13d1759852eb54f83c68a1841f2cd0, type: 3}
+  buttonClick: {fileID: 2800000, guid: 38f87b48bca59514f8a1d0a428afc35d, type: 3}
+  buildFrame: {fileID: 2800000, guid: 4336638a97273a2428c1c1142f9b8396, type: 3}
+  buildMask: {fileID: 2800000, guid: 48fec7f49dd10994787f4574c616d5e0, type: 3}
+  smallButtonHover: {fileID: 2800000, guid: 25420cc8f47d0664c8b6f5c766064d7f, type: 3}
+  smallButtonClick: {fileID: 2800000, guid: 7f2bf7ce0a321f946aabb1305016fa7e, type: 3}
+  rallyPointCursor: {fileID: 2800000, guid: 878035b25f52a8449a77c958df132dfa, type: 3}
+  healthy: {fileID: 2800000, guid: 3b960c935fee9a54ab20851339ed3c91, type: 3}
+  damaged: {fileID: 2800000, guid: 4fff597e6f94dd740b81e2727bbd887d, type: 3}
+  critical: {fileID: 2800000, guid: afc7c2b976bcaff41b26354bf5ad2e87, type: 3}
+  resourceHealthBars: []
+  playerDetailsSkin: {fileID: 11400000, guid: 69f5c115f8036e3408ae3c4460c593e9, type: 2}
+--- !u!114 &5312871813654939423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850143674564214546}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e383ead9f71f40240873884511c0fe77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mySkin: {fileID: 0}
+  selectionSkin: {fileID: 0}
